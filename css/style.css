@@ -1,0 +1,79 @@
+body {
+    background-color: antiquewhite;
+    margin: 15px;
+    padding: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#header {
+    background-color: moccasin;
+    padding: 5px;
+    h1 {
+        text-align: center;
+        color: blue;
+    }
+    blockquote {
+        background-color: yellow;
+        text-align: center;
+        font-weight: bold;
+        padding: 5px;
+        border: 1px solid ;
+    }
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    li {
+        padding: 5px;
+    }
+}
+.gambar {
+    margin: 2px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+}
+.isi {
+    text-align:left;
+    .jawa {
+        color: blue;
+        font-size: 80px;
+    }
+}
+#profil,#beternak {
+    text-align: left;
+}
+.koleksi {
+    display: flex;
+    justify-content: center;
+}
+.koleksi img{
+    width: 20%;
+    padding: 5px;
+    margin: 5px;
+    background-color: white;
+}
+.promo {
+    background-color: yellow;
+    width: fit-content;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    h2 {
+        color:blue
+    }
+    h3 {
+        strong,#Wa {
+            color: red;
+        }
+    }
+    ol {
+        display: flex;
+        list-style-type: none;
+        justify-content: center;
+        li {
+            padding: 5px;
+        }
+    }
+}
